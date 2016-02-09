@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "New Repo /maps - Free Full-Screen Interactive Beer Maps w/ Brewery Listings"
+author: robin_gloster
 ---
 
 Added a new repo, that is, `/maps` for hosting 'full-screen'

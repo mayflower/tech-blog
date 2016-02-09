@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Test Theme Styles"
+author: tristan_helmich
 ---
 
 # Heading 1

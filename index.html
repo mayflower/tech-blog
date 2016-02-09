@@ -12,7 +12,11 @@ title: Welcome
       {{ post.title }}
     </a>
   </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}
+   {% if site.data.authors.[post.author] != null%}
+  	, written by 
+  		<a href="{{ site.data.authors.[post.author].github }}">{{ site.data.authors.[post.author].github_name }}</a>
+  	{% endif %}</div>
   {{ post.content }}
 </article>
 

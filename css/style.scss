@@ -233,3 +233,35 @@ table {
 .post-date {
   color: $post-date-color;  
 }
+
+//////////////////////////
+// Imprint
+
+#imprint {
+  li {
+    font-size: .6em;
+  }
+  ul {
+    list-style-type: none; 
+    padding: 0;
+  }
+  .left {
+    float: left;
+    width: 33%;
+    display: block;
+      h6 {
+        font-size: 1.1em;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      h4 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      p {
+        padding: 0;
+        font-size: 0.6em;
+      }
+  }
+
+}

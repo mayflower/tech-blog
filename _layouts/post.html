@@ -5,10 +5,10 @@ layout: default
 <article class='post'>
   <h1 class='post-title'>{{ page.title }}</h1>
   <div class="post-date">{{ page.date | date: "%b %-d, %Y" }}
-  	{% if site.data.authors.[page.author] != null%}
-  	, written by 
-  		<a href="{{ site.data.authors.[page.author].github }}">{{ site.data.authors.[page.author].github_name }}</a></div>
-  	{% endif %}
+    {% if site.data.authors.[page.author] != null%}
+    , written by
+    <a href="{{ site.data.authors.[page.author].github }}">{{ site.data.authors.[page.author].github_name }}</a></div>
+  {% endif %}
   {{ content }}
 </article>
 

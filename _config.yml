@@ -1,17 +1,16 @@
 ###########
 # site.title, site.url, site.author.name
 
-title:   'Admin Blog'
+title: 'Team Tech Blog'
 author:
-  name:  'Mayflower'
+  name: 'Mayflower'
 
-## note: 
+## note:
 #  use site.path in your templates to make it work for both protocols e.g. http and https
 #  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
 #  path: /jekyll-minimal-theme
-base: ""  
-url:  'http://drjekyllthemes.github.io/jekyll-minimal-theme'
-
+base: ""
+url:  'https://blog.mayflower.tech'
 
 ########
 # more settings

@@ -27,8 +27,8 @@ sass:
 permalink: /:title.html
 
 exclude:
-- README.md
-
+  - README.md
+  - default.nix
 
 safe: true
 lsi: false
